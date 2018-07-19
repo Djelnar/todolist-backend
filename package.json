@@ -1,0 +1,21 @@
+{
+  "name": "todolist-backend",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_PATH='src' nodemon --exec babel-node src/index.js --presets @babel/env"
+  },
+  "devDependencies": {
+    "@atomix/eslint-config": "^6.4.0",
+    "@babel/core": "^7.0.0-beta.54",
+    "@babel/node": "^7.0.0-beta.54",
+    "@babel/preset-env": "^7.0.0-beta.54",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.1.0",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "redis": "^2.8.0"
+  }
+}

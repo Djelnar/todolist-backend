@@ -1,0 +1,6 @@
+{
+  "extends": "@atomix",
+  "parserOptions": {
+    "ecmaVersion": 2018
+  }
+}
